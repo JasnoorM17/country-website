@@ -220,6 +220,6 @@ a:focus {
     font-size: 15px;
     padding: 15px;
     text-align: center;
-    border: 2px solid burlywood;
+    border: 5px solid burlywood;
      border-collapse: collapse;
 }
