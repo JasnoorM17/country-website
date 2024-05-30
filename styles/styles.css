@@ -70,12 +70,16 @@ a:focus {
 
 /* disable dekstop menu when going to mobile */
 @media only screen and (max-width: 500px) {
-   
-
-
+   .container{
+    height: 100vh;
+    width: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -999;
+   }
 }
-
-/* end */
 
 /* hamburger icon */
 #hamburger-icon{
@@ -189,4 +193,27 @@ a:focus {
     left: 0%;
     height: 5rem;
     padding-top: 2rem;
+}
+
+/* banner */
+.banner{
+    position: relative;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-text{
+    position: absolute;
+    top: 25%;
+    color: burlywood;
+    
+}
+
+/* table for credits */
+.table{
+    color: green;
+}
 }
