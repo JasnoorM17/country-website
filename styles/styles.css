@@ -213,7 +213,12 @@ a:focus {
 }
 
 /* table for credits */
-.table{
-    color: green;
-}
+.table,th,td{
+    width: 800px;
+    margin: auto;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid burlywood;
+     border-collapse: collapse;
 }
